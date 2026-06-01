@@ -1,0 +1,67 @@
+<!-- CHALLENGE EXERCISE USING HOVER, TRANSITION, IN LESSON 2 EXERCISE -->
+<style>
+
+    .link-anchor {
+        color: rgb(0, 113, 133);
+        cursor: pointer;
+        font-size: medium;
+        transition: color 0.3s;
+    }
+
+    .link-anchor:hover {
+        color: red;
+    }
+
+    .title-p {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .semi-title-p {
+        color: rgb(0, 118, 0);
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    button {
+        color: black;
+        width: 110px;
+        padding: 10px 0px;
+        margin-right: 8px;
+        border: none;
+        border-radius: 25px;
+        font-weight: medium;
+        cursor: pointer;
+    }
+
+    button:active {
+        opacity: 0.6;
+    }
+
+    .add-cart-button {
+        background-color: rgb(255, 216, 20);
+        transition: background-color 0.2s;
+    }
+
+    .add-cart-button:hover {
+        background-color: rgb(237, 198, 1);
+    }
+
+    .buy-button {
+        background-color: rgb(255, 164, 28);
+        transition: background-color 0.2s;
+    }
+
+    .buy-button:hover {
+        background-color: rgb(230, 139, 3);
+    }
+
+</style>
+
+
+<a href="https://amazon.com/" class="link-anchor">Back to Amazon River</a>
+<p class="title-p">Nike Black Running Shoes</p>
+<p class="semi-title-p">789.00PHP - in stock</p>
+<p>Free delivery every yesterday</p>
+<button class="add-cart-button">Add to Cart</button>
+<button class="buy-button">Buy now</button>
