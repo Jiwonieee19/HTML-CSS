@@ -1,0 +1,18 @@
+h1 {
+    font-family: Montserrat;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    color: gray;
+    font-weight: light;
+    text-align: center;
+    margin: 2px;
+}
+
+span {
+    text-decoration: underline;
+}
