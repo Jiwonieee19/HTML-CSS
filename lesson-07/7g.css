@@ -1,0 +1,38 @@
+div {
+    /* vertical-align: middle; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid;
+    border-color: purple;
+    object-fit: cover;
+    object-position: center;
+    /* vertical-align: middle; */
+}
+
+input {
+    height: 30px;
+    width: 165px;
+    font-size: large;
+    border: none;
+    /* vertical-align: middle; */
+}
+
+button {
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 5px 15px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    border-radius: 25px;
+    /* vertical-align: middle; */
+}
