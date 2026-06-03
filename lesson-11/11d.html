@@ -1,0 +1,94 @@
+<!-- Challenge Exercise -- people you may know line but using grid -->
+
+<html>
+    <head>
+        <style>
+            .div-grid {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+            }
+            .div-people {
+                width: 200px;
+                height: 335px;
+                box-shadow: 0px 1px 5px gray;
+                /* display: inline-block; */
+                margin: 10px;
+            }
+            .img-profpic {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+                margin-bottom: 8px;
+            }
+            p {
+                font-family: Arial;
+            }
+            .p-name {
+                font-size: larger;
+                font-weight: bold;
+                margin: 8px;
+            }
+            .p-mutual {
+                color: gray;
+                margin: 8px 3px;
+            }
+            button {
+                color: white;
+                background-color: rgb(32, 102, 252);
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                margin: 8px;
+            }
+            .div-mutual {
+                /* display: flex;
+                flex-direction: row; */
+                display: grid;
+                grid-template-columns: 25px 1fr;
+                align-items: center;
+            }
+            .img-mutual {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                margin-left: 8px;
+                object-fit: cover;
+                object-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div-grid">
+                <div class="div-people">
+                    <img src="../lesson-10/shinobu.png" alt="shinobu-pic" class="img-profpic">
+                    <p class="p-name">Shinobu Kocho</p>
+                    <div class="div-mutual">
+                        <img src="../lesson-10/cat.jpg" alt="moewskie-pic" class="img-mutual">
+                        <p class="p-mutual">1 mutual friends</p>
+                    </div>
+                    <button>Add Friend</button>
+                </div>
+                <div class="div-people">
+                    <img src="../lesson-10/cat.jpg" alt="meowskie-pic" class="img-profpic">
+                    <p class="p-name">Meowskie</p>
+                    <div class="div-mutual">
+                        <img src="../lesson-10/cat2.jpg" alt="moewskie-pic" class="img-mutual">
+                        <!-- <img src="shinobu.png" alt="shinobu-pic" class="img-mutual"> -->
+                        <p class="p-mutual">1 mutual friends</p>
+                    </div>
+                    <button>Add Friend</button>
+                </div>
+                <div class="div-people">
+                    <img src="../lesson-10/cat2.jpg" alt="queennie-pic" class="img-profpic">
+                    <p class="p-name">Queennie</p>
+                    <div class="div-mutual">
+                        <img src="../lesson-10/cat.jpg" alt="moewskie-pic" class="img-mutual">
+                        <p class="p-mutual">1 mutual friends</p>
+                    </div>
+                    <button>Add Friend</button>
+                </div>
+        </div>
+    </body>
+</html>
