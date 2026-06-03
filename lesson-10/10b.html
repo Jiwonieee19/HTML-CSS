@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            .div-1 {
+                padding: 10px;
+                margin: 5px;
+                gap: 10px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                /* need naa align items if wala, matik align items: stretch, which is ma stretch ang tags too */
+            }
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+            .div-2 {
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                vertical-align: middle;
+            }
+            p {
+                font-family: Arial;
+                color: gray;
+                margin: 3px;
+            }
+            .p-name {
+                color: black;
+                font-size: large;
+                font-weight: bolder;
+            }
+            .p-status {
+                font-size: large;
+            }
+            button {
+                font-family: Arial;
+                font-size: large;
+                font-weight: bold;
+                color: white;
+                background-color: rgb(0, 136, 255);
+                padding: 8px 10px;
+                border: none;
+                border-radius: 5px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div-1">
+            <img src="shinobu.png" alt="shinobu">
+            <div class="div-2">
+                <p class="p-name">Shinobu</p>
+                <p>A Demon Slayer</p>
+                <p class="p-status">Top 8 Hashira</p>
+            </div>
+            <button>Follow</button>
+        </div>
+        <div class="div-1">
+            <img src="cat.jpg" alt="cat">
+            <div class="div-2">
+                <p class="p-name">Meowskie</p>
+                <p>A Mouse Slayer</p>
+                <p class="p-status">Top 1 Global Cat</p>
+            </div>
+            <button>Follow</button>
+        </div>
+        <div class="div-1">
+            <img src="cat2.jpg" alt="catty">
+            <div class="div-2">
+                <p class="p-name">Kattie</p>
+                <p>A Queen</p>
+                <p class="p-status">Top 1 LoftBread</p>
+            </div>
+            <button>Follow</button>
+        </div>
+    </body>
+</html>
