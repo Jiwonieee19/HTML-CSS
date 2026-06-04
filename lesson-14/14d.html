@@ -1,0 +1,75 @@
+<!-- Challenge Exercise -- Modal -->
+
+<html>
+    <head>
+        <style>
+            body {
+                height: 3000px;
+            }
+            .sidebar {
+                width: 300px;
+                height: 3000px;
+                right: 0px;
+                margin: 0px;
+                position: fixed;
+                background-color: green;
+            }
+            .name {
+                color: white;
+            }
+            .overlay {
+                background-color: rgba(0, 0, 0, 0.7);
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .container {
+                display: block;
+                background-color: white;
+                width: 300px;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+                /* align-self: center;
+                justify-self: center; */
+            }
+            .title {
+                font-family: Arial;
+                font-size: larger;
+                font-weight: bolder;
+                margin: 18px;
+            }
+            .message {
+                font-family: Arial;
+                margin: 18px;
+            }
+            button {
+                display: block;
+                border: solid;
+                border-radius: 5px;
+                border-width: 1px;
+                margin: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="name">
+                right sidebar
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="container">
+                <div class="title">Modal Title</div>
+                <div class="message">This is a modal</div>
+                <button>Close</button>
+            </div>
+        </div>
+    </body>
+</html>

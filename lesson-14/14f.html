@@ -1,0 +1,76 @@
+<!-- Challenge Exercise -- double-sidebar -->
+
+<html>
+    <head>
+        <style>
+            body {
+                height: 3000px;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+            div {
+                font-family: Arial;
+                font-weight: bold;
+                color: rgb(199, 199, 199);
+            }
+            p {
+                font-family: Arial;
+                font-weight: bolder;
+                color: white;
+            }   
+            .container {
+                display: flex;
+                flex-direction: row;
+                height: 3000px;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+            }
+            .sidebar-1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: top;
+                background-color: rgb(33, 33, 33);
+                padding: 15px;
+                gap: 15px;
+            }
+            .sidebar-2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                background-color: rgb(81, 81, 81);
+                width: 150px;
+                padding: 15px;
+            }
+            .head {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar-1">
+                <img src="../lesson-10/shinobu.png" alt="shinobu">
+                <img src="../lesson-10/cat.jpg" alt="cat">
+                <img src="../lesson-10/cat2.jpg" alt="cat">
+            </div>
+            <div class="sidebar-2">
+                <div class="head">
+                    <p>INFO</p>
+                    <p style="color: gray !important;">+</p>
+                </div>
+                <div class="hashtags" style="margin: 10px 0px;">#new-videos</div>
+                <div class="hashtags"  style="margin: 10px 0px;">#updates</div>
+                <div class="hashtags"  style="margin: 10px 0px;">#faq</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!-- Challenge Exercise -- header -->
+
+<html>
+    <head>
+        <style>
+            div {
+                font-family: Arial;
+                font-size: large;
+                font-weight: bold;
+            }
+            img {
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+                margin: 16px;
+            }
+            .container {
+                display: block;
+                position: fixed;
+                left: 0px;
+                right: 0px;
+            }
+            .flexbox-1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .block-left {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 400px;
+            }
+            .block-right {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 400px;
+            }
+            button {
+                font-family: Arial;
+                font-weight: bold;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                margin: 8px;
+            }
+            .add {
+                color: white;
+                background-color: rgb(24, 92, 251);
+            }
+            .message {
+                background-color: rgb(196, 195, 195);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="flexbox-1">
+                <div class="block-left">
+                    <img src="../lesson-10/shinobu.png" alt="shinobu">
+                    <p>Shinobu Kocho</p>
+                </div>
+                <div class="block-right">
+                    <button class="add">Add Friend</button>
+                    <button class="message">Message</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
