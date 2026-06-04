@@ -1,0 +1,74 @@
+<!-- Challenge Exercise -- Gmail, ang c is e layout pa like e figma, then d codez -->
+
+<html>
+    <head>
+        <style>
+            .container {
+                display: block;
+                width: 430px;
+                border: none;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0px 1px 5px gray;
+            }
+            .header {
+                color: gray;
+                font-family: Arial;
+                font-size: large;
+            }
+            p {
+                font-family: Arial;
+                color: gray;
+                padding: 3px;
+                margin: 1px;
+            }
+            .flexbox-1 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                margin: 20px 0px;
+            }
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+            .column {
+                display: block;
+            }
+            .flexbox-2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .title {
+                color: black;
+                font-size: large;
+                font-weight: bolder;
+            }
+            .details {
+                color: black;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">ALL INBOXES</div>
+                <div class="flexbox-1">
+                    <img src="../lesson-10/shinobu.png" alt="">
+                    <div class="column">
+                      <div class="flexbox-2">
+                          <p class="title">Chewy Promotions</p>
+                          <p class="time">4:58 PM</p>
+                      </div>
+                        <p class="details">Biggest sales of the year!</p>
+                        <p>Hey there! We're writing to tell you about our..</p>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

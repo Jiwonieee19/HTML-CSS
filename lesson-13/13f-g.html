@@ -1,0 +1,94 @@
+<!-- Challenge Exercise -- the f is to layout it first, then g to code -->
+
+<html>
+    <head>
+        <style>
+            div {
+                font-family: Arial;
+                font-size: large;
+                color: black;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                padding: 10px 20px;
+                width: 480px;
+            }
+            .profile {
+                width: 65px;
+                height: 65px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+                margin: 5px;
+            }
+            .flexbox-column-1 {
+                display: flex;
+                flex-direction: column;
+            }
+            .flexbox-row-1 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            p {
+                margin: 6px;
+            }
+            .head {
+                font-weight: bold;
+            }
+            .gmail {
+                color: gray;
+            }
+            .details {
+                margin: 0px 5px;
+                margin-bottom: 10px;
+            }
+            .flexbox-row-2 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border: solid;
+                border-radius: 8px;
+                border-width: 1px;
+                border-color: gray;
+            }
+            .empty {
+                width: 180px;
+                height: 100px;
+                border-top-left-radius: 7px;
+                border-bottom-left-radius: 7px;
+                background-color: gray;
+            }
+            .container-2 {
+                display: block;
+                padding: 10px;
+            }
+            .link {
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="../lesson-10/shinobu.png" alt="shinobu" class="profile">
+            <div class="flexbox-column-1">
+                <div class="flexbox-row-1">
+                    <p class="head">supersimple.dev</p>
+                    <p class="gmail">@SuperSimpleDev</p>
+                </div>
+                <div class="details">
+                    What is backend web development? A complete overview. New video is up!
+                </div>
+                <div class="flexbox-row-2">
+                    <!-- <img src="empty/gray" alt="empty"> -->
+                     <div class="empty"></div>
+                    <div class="container-2">
+                        <p class="link">youtube.com</p>
+                        <p class="link-title">Backend web development - a complete overview (2021)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
