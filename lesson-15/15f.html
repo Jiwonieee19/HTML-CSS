@@ -1,0 +1,61 @@
+<!-- Challenge Exercise -->
+
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+                margin: 0px;
+                padding: 0px;
+            }
+            .card {
+                position: relative;
+                display: inline-block;
+            }
+            .sale {
+                position: absolute;
+                top: 8px;
+                right: 0px;
+                background-color: rgb(254, 107, 107);
+                padding: 5px;
+            }
+            img {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                object-position: center;
+            }
+            .cart {
+                position: absolute;
+                bottom: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 150px;
+                width: 400px;
+                background-color: rgba(255, 255, 255, 0.591);
+            }
+            button {
+                font-family: Arial;
+                font-weight: bold;
+                color: black;
+                background-color: white;
+                padding: 5px 10px;
+                border: solid;
+                border-color: black;
+                border-width: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="sweater.png" alt="sweater">
+            <div class="sale">
+                <p>20% OFF</p>
+            </div>
+            <div class="cart">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>
