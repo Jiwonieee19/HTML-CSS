@@ -1,0 +1,129 @@
+<!-- Challenge Exercise -- Tooltip -->
+
+<html>
+    <head>
+        <style>
+            div {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container {
+                display: block;
+                padding: 10px;
+                /* background-color: aqua; */
+            }
+            .vid {
+                position: relative;
+                width: 400px;
+                height: 250px;
+            }
+            .img-thumbnail {
+                width: 400px;
+                height: 250px;
+                object-fit: cover;
+                object-position: center;
+            }
+            .timestamp {
+                color: white;
+                background-color: black;
+                position: absolute;
+                bottom: 8px;
+                right: 8px;
+                padding: 5px;
+            }
+            .flexbox-1 {
+                display: flex;
+                flex-direction: row;
+                /* align-items: center; */
+                margin: 10px 0px;
+            }
+            .img-prof {
+                width: 50px;
+                height: 50px;
+                padding: 10px 0px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .column-1 {
+                padding-top: 10px;
+            }
+            .title {
+                font-weight: bold;
+                font-size: large;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            .channel {
+                color: gray;
+                margin: 3px 0px;
+            }
+            .div-prof {
+                display: inline-block;
+                position: relative;
+            }
+            .div-prof-details {
+                background-color: white;
+                width: 200px;
+                padding: 12px 12px;
+                box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+                border-radius: 6px;
+                position: absolute;
+                top: 55px;
+                z-index: 300;
+
+                opacity: 0;
+                pointer-events: none;
+
+                display: flex;
+                align-items: center;
+                transition: opacity 0.15s;
+            }
+            .div-prof:hover .div-prof-details {
+                opacity: 1;
+            }
+            .details {
+                color: gray;
+                margin: 3px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="vid">
+                <!-- 16c -->
+                <a href="https://github.com/Jiwonieee19/HTML-CSS" target="_blank">
+                    <img src="../lesson-10/shinobu.png" alt="shinobu" class="img-thumbnail">
+                </a>
+                <div class="timestamp">14:20</div>
+            </div>
+            <div class="flexbox-1">
+                <div class="div-prof">
+                    <img src="../lesson-10/cat.jpg" alt="cat" class="img-prof">
+                    <div class="div-prof-details">
+                        <img class="img-prof" src="../lesson-10/cat.jpg">
+                        <div style="display: flex; flex-direction: column; gap: 5px;">
+                            <div style="font-weight: bold;">
+                                Cattie Garcia
+                            </div>
+                            <div style="color: gray;">
+                                30M subscribers
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-1"> <!-- 16d-->
+                    <!-- 16b -->
+                    <a href="https://github.com/SuperSimpleDev/html-css-course/tree/main/1-exercise-solutions/lesson-16" target="_blank">
+                        <div class="title">Talking to Shinobu like you know her!</div>
+                    </a>
+                    <!-- 16d -->
+                    <div class="channel">Cattie Garcia</div>
+                    <div class="details">3.4M views : 6 months ago</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
