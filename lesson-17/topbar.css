@@ -1,0 +1,79 @@
+.topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    /* height: 40px; */
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.hamburger {
+    margin-left: 40px;
+}
+
+.ytlogo {
+    width: 120px;
+    height: 50px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+.searchbar {
+    height: 41px;
+    width: 220px;
+    font-family: Arial;
+    font-size: large;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.search {
+    background-color: rgb(228, 228, 228);
+    padding: 5px 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.voice {
+    background-color: rgb(228, 228, 228);
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
